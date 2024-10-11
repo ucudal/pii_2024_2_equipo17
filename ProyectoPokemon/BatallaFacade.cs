@@ -8,6 +8,8 @@ namespace ProyectoPokemon
         {
             batalla = new Batalla(jugador, oponente);
         }
+        
+        private 
 
         public void iniciarBatalla()
         {
@@ -21,8 +23,7 @@ namespace ProyectoPokemon
 
         public void mostrarEstadoPokemones()
         {
-            Console.WriteLine($"{batalla.Jugador.Activo.Nombre} tiene {batalla.Jugador.Activo.Vida} de vida restante.");
-            Console.WriteLine($"{batalla.JugadorOponente.Activo.Nombre} tiene {batalla.JugadorOponente.Activo.Vida} de vida restante.");
+            
         }
 
         public void finalizarBatalla()
