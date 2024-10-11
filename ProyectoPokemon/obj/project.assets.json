@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Estudiante UCU\\.nuget\\packages\\": {}
+    "C:\\Users\\cuent\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Estudiante UCU\\Desktop\\Proyecto\\ProyectoPokemon\\ProyectoPokemon.csproj",
+      "projectUniqueName": "C:\\ProyectoPokemon\\ProyectoPokemon\\ProyectoPokemon.csproj",
       "projectName": "ProyectoPokemon",
-      "projectPath": "C:\\Users\\Estudiante UCU\\Desktop\\Proyecto\\ProyectoPokemon\\ProyectoPokemon.csproj",
-      "packagesPath": "C:\\Users\\Estudiante UCU\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Estudiante UCU\\Desktop\\Proyecto\\ProyectoPokemon\\obj\\",
+      "projectPath": "C:\\ProyectoPokemon\\ProyectoPokemon\\ProyectoPokemon.csproj",
+      "packagesPath": "C:\\Users\\cuent\\.nuget\\packages\\",
+      "outputPath": "C:\\ProyectoPokemon\\ProyectoPokemon\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Estudiante UCU\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\cuent\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"

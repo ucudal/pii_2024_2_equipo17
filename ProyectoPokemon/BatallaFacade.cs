@@ -4,26 +4,26 @@ namespace ProyectoPokemon
     {
         private Tipos tipos;
 
-        public Tipos Tipos(string nombre)
+        public void Tipos(string nombre)
         {
-            tipos = Tipos(nombre);
+            tipos =  new Tipos(nombre);
         }
         private Entrenador entrenador;
 
-        public Entrenador Entrenador(string nombre)
+        public void Entrenador(string nombre)
         {
-            entrenador = Entrenador(nombre);
+            entrenador = new Entrenador(nombre);
         }
 
         private Ataque ataque;
 
-        public Ataque Ataque(string nombre, int daño, List<Tipos> tipo, bool especial)
+        public void Ataque(string nombre, int daño, List<Tipos> tipo, bool especial)
         {
             ataque = new Ataque(nombre, daño, tipo, especial);
         }
         private Batalla batalla;
 
-        public Batalla Batalla(Entrenador jugador, Entrenador oponente)
+        public void Batalla(Entrenador jugador, Entrenador oponente)
         {
             batalla = new Batalla(jugador, oponente);
         }
@@ -34,7 +34,7 @@ namespace ProyectoPokemon
         }
         public void procesarTurno()
         {
-            batalla.procesarTurno;
+            batalla.procesarTurno();
         }
         public void finalizarBatalla()
         {
@@ -42,12 +42,12 @@ namespace ProyectoPokemon
         }
         public void agregarTipo(Tipos tipo)
         {
-            ataque.agregarTipo();
+            ataque.agregarTipo(tipo);
         }
 
         public void elegirEquipo()
         {
-            entrenador.elegirEquipo;
+            entrenador.elegirEquipo();
         }
 
         public void cambiarActivo(int indexPokemonList)
