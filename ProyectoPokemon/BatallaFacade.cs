@@ -90,26 +90,9 @@ namespace ProyectoPokemon
             tipos.eliminarFortalezas(tipo);
         }
 
-        public double multiplicadorDaño(Tipos tipoAtaque)
+        public void multiplicadorDaño(Tipos tipoAtaque)
         {
             tipos.multiplicadorDaño(tipoAtaque);
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }
