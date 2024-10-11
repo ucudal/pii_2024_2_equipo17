@@ -1758,11 +1758,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Estudiante UCU\\Desktop\\Proyecto\\ProyectoPokemon.Tests\\ProyectoPokemon.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\Estudiante UCU\\Desktop\\ProyectoPokemon\\ProyectoPokemon.Tests\\ProyectoPokemon.Tests.csproj",
       "projectName": "ProyectoPokemon.Tests",
-      "projectPath": "C:\\Users\\Estudiante UCU\\Desktop\\Proyecto\\ProyectoPokemon.Tests\\ProyectoPokemon.Tests.csproj",
+      "projectPath": "C:\\Users\\Estudiante UCU\\Desktop\\ProyectoPokemon\\ProyectoPokemon.Tests\\ProyectoPokemon.Tests.csproj",
       "packagesPath": "C:\\Users\\Estudiante UCU\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Estudiante UCU\\Desktop\\Proyecto\\ProyectoPokemon.Tests\\obj\\",
+      "outputPath": "C:\\Users\\Estudiante UCU\\Desktop\\ProyectoPokemon\\ProyectoPokemon.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "configFilePaths": [
@@ -1778,8 +1778,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Estudiante UCU\\Desktop\\Proyecto\\ProyectoPokemon\\ProyectoPokemon.csproj": {
-              "projectPath": "C:\\Users\\Estudiante UCU\\Desktop\\Proyecto\\ProyectoPokemon\\ProyectoPokemon.csproj"
+            "C:\\Users\\Estudiante UCU\\Desktop\\ProyectoPokemon\\ProyectoPokemon\\ProyectoPokemon.csproj": {
+              "projectPath": "C:\\Users\\Estudiante UCU\\Desktop\\ProyectoPokemon\\ProyectoPokemon\\ProyectoPokemon.csproj"
             }
           }
         }
