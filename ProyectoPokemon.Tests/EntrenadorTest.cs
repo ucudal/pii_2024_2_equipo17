@@ -5,8 +5,8 @@ using ProyectoPokemon;
 namespace ProyectoPokemon.Tests;
 
 [TestClass]
-[TestSubject(typeof(Ataque))]
-public class AtaqueTest
+[TestSubject(typeof(Entrenador))]
+public class EntrenadorTest
 {
 
     [TestMethod]
