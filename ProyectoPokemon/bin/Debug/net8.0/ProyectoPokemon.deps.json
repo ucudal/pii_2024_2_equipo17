@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ProyectoPokemon/1.0.0": {
+        "runtime": {
+          "ProyectoPokemon.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ProyectoPokemon/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

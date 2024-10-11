@@ -1,0 +1,15 @@
+C:\Users\Estudiante UCU\Desktop\Proyecto\ProyectoPokemon\bin\Debug\net8.0\ProyectoPokemon.exe
+C:\Users\Estudiante UCU\Desktop\Proyecto\ProyectoPokemon\bin\Debug\net8.0\ProyectoPokemon.deps.json
+C:\Users\Estudiante UCU\Desktop\Proyecto\ProyectoPokemon\bin\Debug\net8.0\ProyectoPokemon.runtimeconfig.json
+C:\Users\Estudiante UCU\Desktop\Proyecto\ProyectoPokemon\bin\Debug\net8.0\ProyectoPokemon.dll
+C:\Users\Estudiante UCU\Desktop\Proyecto\ProyectoPokemon\bin\Debug\net8.0\ProyectoPokemon.pdb
+C:\Users\Estudiante UCU\Desktop\Proyecto\ProyectoPokemon\obj\Debug\net8.0\ProyectoPokemon.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Estudiante UCU\Desktop\Proyecto\ProyectoPokemon\obj\Debug\net8.0\ProyectoPokemon.AssemblyInfoInputs.cache
+C:\Users\Estudiante UCU\Desktop\Proyecto\ProyectoPokemon\obj\Debug\net8.0\ProyectoPokemon.AssemblyInfo.cs
+C:\Users\Estudiante UCU\Desktop\Proyecto\ProyectoPokemon\obj\Debug\net8.0\ProyectoPokemon.csproj.CoreCompileInputs.cache
+C:\Users\Estudiante UCU\Desktop\Proyecto\ProyectoPokemon\obj\Debug\net8.0\ProyectoPokemon.sourcelink.json
+C:\Users\Estudiante UCU\Desktop\Proyecto\ProyectoPokemon\obj\Debug\net8.0\ProyectoPokemon.dll
+C:\Users\Estudiante UCU\Desktop\Proyecto\ProyectoPokemon\obj\Debug\net8.0\refint\ProyectoPokemon.dll
+C:\Users\Estudiante UCU\Desktop\Proyecto\ProyectoPokemon\obj\Debug\net8.0\ProyectoPokemon.pdb
+C:\Users\Estudiante UCU\Desktop\Proyecto\ProyectoPokemon\obj\Debug\net8.0\ProyectoPokemon.genruntimeconfig.cache
+C:\Users\Estudiante UCU\Desktop\Proyecto\ProyectoPokemon\obj\Debug\net8.0\ref\ProyectoPokemon.dll

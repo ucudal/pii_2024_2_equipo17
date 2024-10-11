@@ -33,8 +33,6 @@ public class Batalla
     public void iniciarBatalla() 
     { 
         Console.WriteLine("¡Comienza la batalla!"); 
-        this.Jugador.comenzarTurno(); 
-        this.JugadorOponente.comenzarTurno();
     } 
     
     public void terminarBatalla() 

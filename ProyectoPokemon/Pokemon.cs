@@ -132,7 +132,7 @@ public class Pokemon : IPorTurnos
             Console.WriteLine($"{numero} - {ataque.Nombre}");
             numero += 1;
         }
-        Console.WriteLine($"{numero + 1} - {this.AtaqueEspecial}");
+        Console.WriteLine($"{numero} - {this.AtaqueEspecial.Nombre}");
     }
 
     public void mostrarVida()
