@@ -3,7 +3,11 @@ namespace ProyectoPokemon;
 public class Pokedex
 {
     private static List<Pokemon> listaPokemones = new List<Pokemon>();
-
+    
+    public static List<Pokemon> ListaPokemons
+    {
+        get { return listaPokemones; }
+    }
 
     public static void agregarPokemon(Pokemon pokemon)
     {
