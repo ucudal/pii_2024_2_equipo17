@@ -2,72 +2,112 @@ namespace ProyectoPokemon
 {
     public class BatallaFacade
     {
+        private Tipos tipos;
+
+        public Tipos Tipos(string nombre)
+        {
+            tipos = Tipos(nombre);
+        }
+        private Entrenador entrenador;
+
+        public Entrenador Entrenador(string nombre)
+        {
+            entrenador = Entrenador(nombre);
+        }
+
+        private Ataque ataque;
+
+        public Ataque Ataque(string nombre, int daño, List<Tipos> tipo, bool especial)
+        {
+            ataque = new Ataque(nombre, daño, tipo, especial);
+        }
         private Batalla batalla;
 
-        public BatallaFacade(Entrenador jugador, Entrenador oponente)
+        public Batalla Batalla(Entrenador jugador, Entrenador oponente)
         {
             batalla = new Batalla(jugador, oponente);
         }
-        
-        private 
 
         public void iniciarBatalla()
         {
             batalla.iniciarBatalla();
         }
-
-        public void ataqueJugador(int indiceAtaque)
+        public void procesarTurno()
         {
-            batalla.procesarTurno();
+            batalla.procesarTurno;
         }
-
-        public void mostrarEstadoPokemones()
-        {
-            
-        }
-
         public void finalizarBatalla()
         {
             batalla.terminarBatalla();
         }
-        public void cambiarPokemonActivo(int indexPokemon)
+        public void agregarTipo(Tipos tipo)
         {
-            if (indexPokemon >= 0 && indexPokemon < batalla.Jugador.Equipo.Count)
-            {
-                batalla.Jugador.cambiarActivo(indexPokemon);
-                Console.WriteLine($"{batalla.Jugador.Nombre} ha cambiado a {batalla.Jugador.Activo.Nombre} como Pokémon activo.");
-            }
-            else
-            {
-                Console.WriteLine("¡Índice de Pokémon no válido!");
-            }
+            ataque.agregarTipo();
         }
-        public void procesarTurno(int ataqueIndex)
+
+        public void elegirEquipo()
         {
-            if (batalla.Turno)
-            {
-                if (!batalla.Jugador.Activo.EstaDerrotado)
-                {
-                    Console.WriteLine($"{batalla.Jugador.Nombre}, es tu turno.");
-                    batalla.Jugador.Activo.mostrarAtaques();
-                    ataqueIndex = int.Parse(Console.ReadLine());
-                    batalla.Jugador.elegirAtaque(ataqueIndex, batalla.JugadorOponente.Activo);
-                }
-            }
-            else
-            {
-                if (!batalla.JugadorOponente.Activo.EstaDerrotado)
-                {
-                    Console.WriteLine($"{batalla.JugadorOponente.Nombre}, es tu turno.");
-                    batalla.JugadorOponente.Activo.mostrarAtaques();
-                    ataqueIndex = int.Parse(Console.ReadLine());
-                    batalla.JugadorOponente.elegirAtaque(ataqueIndex, batalla.Jugador.Activo);
-                }
-            }
-    
-            // Alternar turno
-            batalla.Turno = !batalla.Turno;
+            entrenador.elegirEquipo;
         }
+
+        public void cambiarActivo(int indexPokemonList)
+        {
+            entrenador.cambiarActivo(indexPokemonList);
+        }
+
+        public void elegirAtaque(int indexAtaque, Pokemon oponente)
+        {
+            entrenador.elegirAtaque(indexAtaque, oponente);
+        }
+
+        public void comenzarTurno()
+        {
+            entrenador.comenzarTurno();
+        }
+
+        public void finalizarTurno()
+        {
+            entrenador.finalizarTurno();
+        }
+
+        public void agregarDebilidades(Tipos tipo)
+        {
+            tipos.agregarDebilidades(tipo);
+        }
+
+        public void agregarFortalezas(Tipos tipo)
+        {
+            tipos.agregarFortalezas(tipo);
+        }
+
+        public void eliminarDebilidades(Tipos tipo)
+        {
+            tipos.eliminarDebilidades(tipo);
+        }
+
+        public void eliminarFortalezas(Tipos tipo)
+        {
+            tipos.eliminarFortalezas(tipo);
+        }
+
+        public double multiplicadorDaño(Tipos tipoAtaque)
+        {
+            tipos.multiplicadorDaño(tipoAtaque);
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
